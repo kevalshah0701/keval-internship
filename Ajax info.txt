@@ -1,0 +1,9 @@
+<br>
+   <b> AJAX </b>is a technique for creating fast and dynamic web pages. <br><br>
+
+   <b> AJAX </b>allows web pages to be updated asynchronously by exchanging small amounts of
+    data with the server behind the scenes. <br><br>
+    
+    This means that it is possible to update parts of a web page, without reloading 
+    the whole page.<br>
+

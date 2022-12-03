@@ -1,0 +1,249 @@
+
+php Functions:-	
+
+A function is a piece of code that takes another input in the form of a parameter,
+processes it, and then returns a value.
+
+
+1	count	                returns the number of elements in an array.
+
+2	is_array                checks whether a variable is an array or not.
+         
+3	substr	                used to extract a part of the given string
+
+4	explode	                used to split a string in different strings
+
+5	str_replace             used to replace some characters with some other characters 
+                            in a string.
+
+
+6	implode	                used to join the elements of an array.
+
+7	strlen	                returns the length of a given string.
+
+8	array_merge	            merges one or more arrays into one array. 
+
+9	strpos	                to find the first occurrence of a substring in a string or 
+                            a string inside another string.
+
+
+11	preg_match	            performs a regular expression match
+
+12	sprintf	                writes a formatted string to a variable
+
+13	trim	                removes whitespace and other predefined characters from 
+                            both sides of a string.
+
+
+14	strtolower	             used to convert a string into lowercase.
+
+15	file_exists	             checks whether a file or directory exists
+
+16	is_string	             checks whether a variable is of type string or not
+
+17	preg_replace             One pattern and a replacement string
+
+18	file_get_contents	     reads a file into a string
+
+19	array_key_exists	     checks an array for a specified key, and returns true if the 
+                             key exists and false if the key does not exist
+
+
+20	array_keys	             used to return either all the keys of and array or the subset
+                             of the keys
+
+
+21	dirname	                 returns the path of the parent directory.
+
+22	function_exists	         if we want to check whether a function() exists or not in the
+                             PHP script
+
+
+23	array_map                sends each value of an array to a user-made function, and 
+                             returns an array with new values, given by the user-made 
+                             function.
+
+
+24	get_class                used to return the class name of an object
+
+25	class_exists             used to check whether the given class is defined or not
+
+26	is_object                checks whether a variable is an object
+
+27	time                     returns the current time
+
+28	json_encode              used to encode a value to JSON format.
+
+29	date                     returns the current date
+
+30	is_null                  empty
+
+31	is_numeric               checks whether a variable is an is numeric
+
+32	array_shift              removes the first element from an array, and returns the 
+                             value of the removed element
+
+
+33	defined                  block of statements that can be used repeatedly in a program.
+
+34	is_dir                   to check whether the specified file is a directory or not.
+
+35	json_decode              to decode or convert a JSON object to a PHP object.
+
+36	header                   for sending a raw HTTP header
+
+37	strtoupper               to convert a string into uppercase.
+
+38	array_val                 returns an array containing all the values of an array. 
+
+39	md5	                      The md5() function calculates the MD5 hash of a string
+
+40	method_exists             returns TRUE if the method given by method_name has been 
+                              defined for the given object, FALSE otherwise.
+
+
+41	file_put_contents         to write a string to a file
+
+42	rtrim                     removes whitespace or other predefined characters from the 
+                              right side of a string
+
+
+43	array_pop                 to delete or pop out and return the last element from an 
+                              array passed to it as parameter
+
+44	unlink                      to delete a file.
+
+45	basename                  to return the base name of a given file on a certain 
+                              condition when the path of the desired file is given as 
+                              a parameter inside the base name function. 
+
+
+46	realpath                  to return the canonicalized absolute pathname.
+
+47	call_user_func            to call the callback given by the first parameter and
+                              passes the remaining parameters as argument
+
+48	call_user_func_array      to call the callback given by the first parameter and
+                              passes the remaining parameters as argument
+
+49	fopen	                  opens a file or URL
+
+50	microtime	              to return the current Unix timestamp with microseconds.
+
+51	fclose	                   closes an open file pointer
+
+52	is_int	                    checks whether a variable is of type integer or not.
+
+53	is_file	                    checks whether the specified filename is a regular file.
+
+54	array_slice	                   returns selected parts of an array
+
+55	preg_match_all	           returns the number of matches of a pattern that were found
+                               in a string and populates a variable with the matches that
+                               were found.
+
+56	ucfirst	              to convert the first character of the string into the uppercase.
+
+57	intval	                which returns the integer value of a variable.
+
+58	str_repeat	                 repeats a string a specified number of times.
+
+59	serialize	                converts a storable representation of a value.
+
+60	array_filter	            filters the values of an array using a callback function
+
+61	mkdir	                        creates a directory specified by a pathname.
+
+62	is_callable	                checks whether the contents of a variable can be called as
+                                 a function or not
+
+63	ltrim	                    removes whitespace or other predefined characters from the
+                                 left side of a string. 
+
+64	ob_start	                    creates an output buffer
+
+65	round                            round() function rounds a floating-point number
+
+66	fwrite                          writes to an open file. 
+
+67	array_unique	                   removes duplicate values from an array. 
+
+68	array_search                    used to search for a particular value in an array,
+
+69	reset	                        moves the internal pointer to the first element of the
+                                     array
+
+70	array_unshift                   inserts new elements to an array.
+
+71	parse_url                     an inbuilt function in PHP which is used to return the
+                                 components of a URL by parsing it.
+
+72	func_get_args	          function can return an array in which each element is a 
+                            corresponding member of the current user-defined function's 
+                            argument list.
+
+73	end                        to find the last element of the given array.
+
+74	base64_encode	        to Encodes data with MIME base64
+
+75	unserialize	               converts serialized data back into actual data.
+
+76	max	                     to find the numerically maximum value in an array or the 
+                            numerically maximum value of several specified values.
+
+77	preg_split	             breaks a string into an array using matches of a regular
+                             expression as separators.
+
+78	gettype	                 to get the type of a variable.
+
+79	strrpos	                finds the position of the last occurrence of a string inside
+                             another string. 
+
+80	version_compare	         compares two "PHP-standardized" version number strings.
+
+81	array_push	             inserts one or more elements to the end of an array.
+
+82	floor	                rounds a number DOWN to the nearest integer, if necessary,
+                             and returns the result. 
+
+
+83	strtotime	               parses an English textual datetime into a Unix timestamp
+
+84	htmlspecialchars            converts some predefined characters to HTML entities.
+
+85	ini_get	                allows you to read a value from the php. ini file without 
+                            altering it.
+
+86	ini_set	                 allows you to change system attributes that affect the way 
+                            your script is executed.
+
+87	chr	                       returns a character from the specified ASCII value
+
+88	extension_loaded	    to test whether a given extension is already available or not.
+
+89	is_bool	                 checks whether a variable is a boolean or not
+
+90	ksort	            sorts an associative array in ascending order, according to the key. 
+
+91	array_reverse       to reverse the order of the elements in an array
+
+92	ord	                returns the ASCII value of the first character of a string.
+
+93	uniqid              to generate a unique ID based on the current time in 
+                        microseconds (micro time).
+
+94	strtr	               translates certain characters in a string.
+
+95	array_diff	        compares the values of two (or more) arrays, and returns the 
+                        differences.
+
+96	error_reporting      specifies which errors are reported.
+
+97	ceil	             ounds a number UP to the nearest integer, if necessary.
+
+98	urlencode	        to encode the url
+
+99	min	                to find the lowest value in an array, or the lowest value of 
+                        several specified values.
+
+100	print_r	         prints the information about a variable in a more human-readable way.
